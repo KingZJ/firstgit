@@ -55,7 +55,7 @@ class user extends CI_Controller {
 	 */
 	public function login () {
 		$is_logined = $this->userauth->current(FALSE) ;
-		var_dump($is_logined);
+		// var_dump($is_logined);
 		if (! empty($is_logined)) {
 			$this->userauth->logout(FALSE) ;
 		}
@@ -132,7 +132,7 @@ class user extends CI_Controller {
 		header('Access-Control-Allow-Headers: X-Requested-With') ;
 		header('Cache-Control: no-cache') ;
 		echo json_encode($arr) ;
-		// exit() ;
+		exit() ;
 	}
 	
 	/**
