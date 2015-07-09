@@ -274,7 +274,8 @@ $config['sess_time_to_update']	= 3600;
 |
 */
 $config['cookie_prefix']	= "";
-$config['cookie_domain']	= ".dachuwang.com";
+// $config['cookie_domain']	= ".dachuwang.com";
+$config['cookie_domain']	= ".firstgit.net";
 $config['cookie_path']		= "/";
 $config['cookie_secure']	= FALSE;
 
