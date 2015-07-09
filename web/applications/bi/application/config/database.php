@@ -48,10 +48,18 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'dev.ymt360.com';
+// 线上
+// $db['default']['hostname'] = 'dev.ymt360.com';
+// $db['default']['username'] = 'ecun';
+// $db['default']['password'] = 'ecun001';
+// $db['default']['database'] = 'houchuwang';
+
+// 测试
+$db['default']['hostname'] = '180.150.177.122';
 $db['default']['username'] = 'ecun';
 $db['default']['password'] = 'ecun001';
-$db['default']['database'] = 'houchuwang';
+$db['default']['database'] = 'd_dachuwang';
+
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
