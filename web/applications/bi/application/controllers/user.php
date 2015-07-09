@@ -30,7 +30,7 @@ class user extends CI_Controller {
 		$this->data['api_url'] = C('config.api_url') ;
 		$this->data['web_url'] = C('config.web_url') ;
 		// 激活分析器以调试程序
-		$this->output->enable_profiler(TRUE);
+		// $this->output->enable_profiler(TRUE);
 	}
 	
 	public function index () {
