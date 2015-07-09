@@ -55,6 +55,7 @@ class user extends CI_Controller {
 	 */
 	public function login () {
 		$is_logined = $this->userauth->current(FALSE) ;
+		var_dump($is_logined);
 		if (! empty($is_logined)) {
 			$this->userauth->logout(FALSE) ;
 		}
