@@ -132,7 +132,7 @@ class user extends CI_Controller {
 		header('Access-Control-Allow-Headers: X-Requested-With') ;
 		header('Cache-Control: no-cache') ;
 		echo json_encode($arr) ;
-		exit() ;
+		// exit() ;
 	}
 	
 	/**
