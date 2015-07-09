@@ -73,16 +73,16 @@ $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
 // 线上
-$db['web']['hostname'] = '10.161.43.98';
-$db['web']['username'] = 'ecun';
-$db['web']['password'] = 'ecun001';
-$db['web']['database'] = 'ymt360';
-
-// 测试
-// $db['web']['hostname'] = 'inf.ymt360.com';
+// $db['web']['hostname'] = '10.161.43.98';
 // $db['web']['username'] = 'ecun';
 // $db['web']['password'] = 'ecun001';
-// $db['web']['database'] = 'houchuwang';
+// $db['web']['database'] = 'ymt360';
+
+// 测试
+$db['web']['hostname'] = 'inf.ymt360.com';
+$db['web']['username'] = 'ecun';
+$db['web']['password'] = 'ecun001';
+$db['web']['database'] = 'houchuwang';
 
 $db['web']['dbdriver'] = 'mysqli';
 $db['web']['dbprefix'] = '';
