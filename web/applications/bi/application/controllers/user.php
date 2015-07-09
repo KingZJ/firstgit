@@ -30,7 +30,7 @@ class user extends CI_Controller {
 		$this->data['api_url'] = C('config.api_url') ;
 		$this->data['web_url'] = C('config.web_url') ;
 		// 激活分析器以调试程序
-		// $this->output->enable_profiler(TRUE);
+		$this->output->enable_profiler(TRUE);
 	}
 	
 	public function index () {
@@ -77,7 +77,7 @@ class user extends CI_Controller {
 					'msg' => '你的账号没有权限访问'
 			)) ;
 		}
-		
+		var_dump($this->input);die;
 		$login_result = $this->userauth->login($_POST['mobile'], $_POST['password'], FALSE) ;
 		if (! empty($login_result['info']['type'])) {
 			if (in_array($login_result['info']['type'], array (
