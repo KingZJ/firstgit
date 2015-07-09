@@ -72,10 +72,18 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-$db['web']['hostname'] = '10.161.43.98';
+// 在线
+// $db['web']['hostname'] = '10.161.43.98';
+// $db['web']['username'] = 'ecun';
+// $db['web']['password'] = 'ecun001';
+// $db['web']['database'] = 'ymt360';
+
+// 测试
+$db['web']['hostname'] = 'inf.ymt360.com';
 $db['web']['username'] = 'ecun';
 $db['web']['password'] = 'ecun001';
-$db['web']['database'] = 'ymt360';
+$db['web']['database'] = 'houchuwang';
+
 $db['web']['dbdriver'] = 'mysqli';
 $db['web']['dbprefix'] = '';
 $db['web']['pconnect'] = TRUE;
