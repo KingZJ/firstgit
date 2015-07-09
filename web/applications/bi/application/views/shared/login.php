@@ -56,6 +56,7 @@
                             'remember-me' : $("input[name=remember-me]").val()
                         },
                         'success' : function(data){
+                          alert(data.status);
                             if(data && data.status == 0){
                                 location = base_url;
                             }else{
