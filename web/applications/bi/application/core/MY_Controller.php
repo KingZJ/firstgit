@@ -15,6 +15,7 @@ class MY_Controller extends CI_Controller {
         $this->data['js_version'] = C('version.version.js');
         $this->load->library(array('UserAuth', 'Http'));
         $this->data['user_info'] = $this->userauth->current(FALSE);
+        var_dump($this->date['user_info']);
 
         if(empty($this->data['user_info'])){
             	header("location:". $this->data['base_url'].'/user');exit;
