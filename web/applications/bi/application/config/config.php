@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://bi.dachuwang.com';
+$config['base_url']	= 'http://bi.firstgit.net';
 $config['img_url']	= 'http://img.ymt360.com/';
 $config['api_url']  = 'http://api.dachuwang.com/';
 $config['web_url']  = 'http://bi.dachuwang.com/';
