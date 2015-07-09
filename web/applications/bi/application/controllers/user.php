@@ -77,7 +77,7 @@ class user extends CI_Controller {
 					'msg' => '你的账号没有权限访问'
 			)) ;
 		}
-		var_dump($this->input);die;
+		// var_dump($this->input);die;
 		$login_result = $this->userauth->login($_POST['mobile'], $_POST['password'], FALSE) ;
 		if (! empty($login_result['info']['type'])) {
 			if (in_array($login_result['info']['type'], array (
