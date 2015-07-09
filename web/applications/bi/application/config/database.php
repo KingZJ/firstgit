@@ -49,16 +49,16 @@ $active_group = 'default';
 $active_record = TRUE;
 
 // 线上
-// $db['default']['hostname'] = 'dev.ymt360.com';
-// $db['default']['username'] = 'ecun';
-// $db['default']['password'] = 'ecun001';
-// $db['default']['database'] = 'houchuwang';
-
-// 测试
-$db['default']['hostname'] = '180.150.177.122';
+$db['default']['hostname'] = 'dev.ymt360.com';
 $db['default']['username'] = 'ecun';
 $db['default']['password'] = 'ecun001';
-$db['default']['database'] = 'd_dachuwang';
+$db['default']['database'] = 'houchuwang';
+
+// 测试
+// $db['default']['hostname'] = '180.150.177.122';
+// $db['default']['username'] = 'ecun';
+// $db['default']['password'] = 'ecun001';
+// $db['default']['database'] = 'd_dachuwang';
 
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
@@ -72,17 +72,17 @@ $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
 
-// 在线
-// $db['web']['hostname'] = '10.161.43.98';
-// $db['web']['username'] = 'ecun';
-// $db['web']['password'] = 'ecun001';
-// $db['web']['database'] = 'ymt360';
-
-// 测试
-$db['web']['hostname'] = 'inf.ymt360.com';
+// 线上
+$db['web']['hostname'] = '10.161.43.98';
 $db['web']['username'] = 'ecun';
 $db['web']['password'] = 'ecun001';
-$db['web']['database'] = 'houchuwang';
+$db['web']['database'] = 'ymt360';
+
+// 测试
+// $db['web']['hostname'] = 'inf.ymt360.com';
+// $db['web']['username'] = 'ecun';
+// $db['web']['password'] = 'ecun001';
+// $db['web']['database'] = 'houchuwang';
 
 $db['web']['dbdriver'] = 'mysqli';
 $db['web']['dbprefix'] = '';
