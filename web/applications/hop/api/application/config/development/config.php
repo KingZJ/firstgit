@@ -14,10 +14,10 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://hop.firstgit.net';
+$config['base_url']	= 'http://api.hop.firstgit.net';
 $config['img_url']	= 'http://img.ymt360.net/';
 $config['api_url']  = 'http://s.dachuwang.net/';
-$config['web_url']  = 'http://hop.firstgit.net/';
+$config['web_url']  = 'http://api.hop.firstgit.net/';
 $config['location_url']   = 'http://10.144.243.167:10020/?q=';
 /*
 |--------------------------------------------------------------------------
