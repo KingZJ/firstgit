@@ -14,10 +14,10 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://bi.dachuwang.net';
+$config['base_url']	= 'http://hop.firstgit.net';
 $config['img_url']	= 'http://img.ymt360.net/';
 $config['api_url']  = 'http://s.dachuwang.net/';
-$config['web_url']  = 'http://bi.dachuwang.net/';
+$config['web_url']  = 'http://hop.firstgit.net/';
 $config['location_url']   = 'http://10.144.243.167:10020/?q=';
 /*
 |--------------------------------------------------------------------------
@@ -274,7 +274,7 @@ $config['sess_time_to_update']	= 3600;
 |
 */
 $config['cookie_prefix']	= "";
-$config['cookie_domain']	= ".dachuwang.net";
+$config['cookie_domain']	= ".firstgit.net";
 $config['cookie_path']		= "/";
 $config['cookie_secure']	= FALSE;
 
