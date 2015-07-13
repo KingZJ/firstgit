@@ -1,2 +1,0 @@
--- 增加录入条码
-ALTER TABLE t_sku MODIFY COLUMN code CHAR(30)  NOT NULL DEFAULT '0' COMMENT '录入条码';
